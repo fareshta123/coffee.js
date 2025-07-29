@@ -1,0 +1,42 @@
+body {
+    background: rgba(121, 72, 72, 0.548);
+   
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  }
+  
+  .container {
+    text-align: center;
+    border-color: #2e2019;
+    padding: 4%;
+    border-radius:25px;
+    background-color: #745252a9;
+    box-shadow: 10px 20px 20px rgba(18, 15, 15, 0.963);
+  }
+  
+  h1 {
+    color: #f0e9e6;
+    margin-bottom: 40px;
+    border: #3e2c23;
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  button {
+    background-color: #f5eeeb;
+    color: rgb(75, 47, 47);
+    padding: 10px 25px;
+    border: dotted;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    
+  }
+  
+  button:hover {
+    background-color: #3e2c23;
+  }
